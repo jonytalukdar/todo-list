@@ -12,8 +12,14 @@ window.onload = function () {
 };
 
 function createNewTask(parent, task) {
-  let col = document.create({ class: 'col-sm-3' });
+  let col = create({ 'class ': 'col-sm-3' });
   let singleTask = create({ class: 'single-task' });
+  singleTaskP = create('p');
+  singleTaskP.innerHTML = task;
+  singleTask.appendChild(singleTaskP);
+
+  col.appendChild(singleTaskP);
+  parent.appendChild(col);
 }
 
 window.create = function () {

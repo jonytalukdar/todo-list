@@ -7,3 +7,12 @@ body {
 .btn {
   background-color: #eee;
 }
+
+.single-task {
+  color: red !important;
+  min-height: 75px;
+  padding: 5px;
+  background: salmon !important;
+  position: relative;
+  margin-bottom: 10px;
+}
