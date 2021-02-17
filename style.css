@@ -5,7 +5,7 @@ body {
 }
 
 .btn {
-  background-color: #eee;
+  background-color: #eee !important;
 }
 
 .single-task {
